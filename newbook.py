@@ -28,7 +28,7 @@ def save_books(books):
 def add_book():
     books = load_books()
 
-    book_id = input("Enter Book ID: ")
+    book_id = input("Enter Book ID: ").strip().lower()
 
     # COMPARE BOOK ID
     for book in books:
@@ -36,9 +36,9 @@ def add_book():
             print("Book already exists")
             return
 
-    book_name = input("Enter Book Name: ")
-    author = input("Enter Author Name: ")
-    category = input("Enter Book Category: ")
+    book_name = input("Enter Book Name: ").strip()
+    author = input("Enter Author Name: ").strip()
+    category = input("Enter Book Category: ").strip()
     no_of_copy = int(input("Enter number of copies: "))
     if no_of_copy <= 0:
         print("Number of copies can't be zero or negative")

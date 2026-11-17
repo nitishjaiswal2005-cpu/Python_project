@@ -6,8 +6,8 @@ def return_book():
     books = load_books()
     issued = load_issue_books()
 
-    student_id = input("Enter student ID: ")
-    book_id = input("Enter book ID: ")
+    student_id = input("Enter student ID: ").strip().lower()
+    book_id = input("Enter book ID: ").strip().lower()
 
     found = False
     for record in issued:

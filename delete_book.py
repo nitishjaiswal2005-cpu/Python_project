@@ -6,7 +6,7 @@ def delete_book():
     books = load_books()
     issued = load_issue_books()
 
-    book_id = input("Enter the book id to delete: ")
+    book_id = input("Enter the book id to delete: ").strip().lower()
 
     found = False
     for book in books:

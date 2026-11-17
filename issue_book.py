@@ -31,8 +31,8 @@ def issued_book():
     students = load_students()
     issued = load_issue_books()
 
-    student_id = input("Enter Student ID: ")
-    book_id = input("Enter Book ID: ")
+    student_id = input("Enter Student ID: ").strip().lower()
+    book_id = input("Enter Book ID: ").strip().lower()
 
     #CHECKING STUDENT IS REGISTERED OR NOT
     student_found = False

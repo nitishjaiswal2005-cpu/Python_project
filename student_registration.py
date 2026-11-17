@@ -26,7 +26,7 @@ def save_students(students):
 def registration():
     students = load_students()
 
-    student_id = input("Enter Student ID: ")
+    student_id = input("Enter Student ID: ").strip().lower()
     if student_id == "":
         print("Student ID is required")
         return
@@ -37,9 +37,9 @@ def registration():
             print("Student already exists")
             return
 
-    student_name = input("Enter Student Name: ")
-    department = input("Enter Student Department: ")
-    contact_number = input("Enter Student Contact Number: ")
+    student_name = input("Enter Student Name: ").strip()
+    department = input("Enter Student Department: ").strip()
+    contact_number = input("Enter Student Contact Number: ").strip()
     if student_name == "" or department == "":
         print("Student Name and Department are required")
         return
