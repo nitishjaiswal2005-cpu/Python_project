@@ -8,7 +8,7 @@ def search_book():
         print("No books found")
         return
 
-    keyword = input("Enter Book ID, Book Name or Author: ")
+    keyword = input("Enter Book ID, Book Name or Author: ").strip().lower()
 
     if keyword == "":
         print("enter keyword ")

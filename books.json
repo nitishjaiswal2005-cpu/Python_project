@@ -1,9 +1,30 @@
 [
     {
-        "book_id": "4578",
-        "book_name": "niiit",
-        "author": "hamhe",
+        "book_id": "258741",
+        "book_name": "horror",
+        "author": "gorge",
+        "category": "horr",
+        "available_copies": 20
+    },
+    {
+        "book_id": "lo874",
+        "book_name": "local",
+        "author": "haist",
+        "category": "cse",
+        "available_copies": 10
+    },
+    {
+        "book_id": "io7845",
+        "book_name": "Ghost mystery",
+        "author": "george fernandes",
         "category": "horror",
-        "available_copies": 49
+        "available_copies": 20
+    },
+    {
+        "book_id": "4516",
+        "book_name": "Marvels Ironman",
+        "author": "george",
+        "category": "comic",
+        "available_copies": 19
     }
 ]

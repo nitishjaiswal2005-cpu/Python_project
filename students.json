@@ -1,20 +1,8 @@
 [
     {
-        "student_id": "51464",
-        "student_name": "nitish",
+        "student_id": "12478",
+        "student_name": "Nitish Jaiswa",
         "department": "cse",
-        "contact_number": "6546465514"
-    },
-    {
-        "student_id": "5478",
-        "student_name": "nitish",
-        "department": "cse",
-        "contact_number": "5454473215"
-    },
-    {
-        "student_id": "9874p",
-        "student_name": "kohli",
-        "department": "cse",
-        "contact_number": "8987456147"
+        "contact_number": "5846921357"
     }
 ]
